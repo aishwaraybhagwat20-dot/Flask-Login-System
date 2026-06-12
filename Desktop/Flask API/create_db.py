@@ -1,12 +1,12 @@
 import sqlite3
 
-# Connect to database (creates it if it doesn't exist)
+
 conn = sqlite3.connect("database.db")
 
-# Create cursor
+
 cursor = conn.cursor()
 
-# Create users table
+
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS users(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
