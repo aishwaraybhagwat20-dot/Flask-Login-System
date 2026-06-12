@@ -53,24 +53,6 @@ python app.py
 http://127.0.0.1:5000
 \```
 
-## Project Structure
-\```
-Flask-Login-System/
-│
-├── app.py
-├── create_db.py
-├── clear_user.py
-├── show_user.py
-├── requirements.txt
-├── README.md
-│
-└── templates/
-    ├── index.html
-    ├── register.html
-    ├── login.html
-    └── dashboard.html
-\```
-
 ## How It Works
 1. User registers with name, email and password
 2. Password is hashed before storing in database
